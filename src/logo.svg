@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Bethel Outreach and Prayer Center Logo</title>
+  <desc id="desc">A purple and gold church crest with dove, globe, cross, Bible, and ribbon.</desc>
+  <defs>
+    <linearGradient id="purpleGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#4b237e"/>
+      <stop offset="0.5" stop-color="#4a1d74"/>
+      <stop offset="1" stop-color="#2b0e4d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#f5e0b4"/>
+      <stop offset="0.35" stop-color="#d7b364"/>
+      <stop offset="0.7" stop-color="#b8882d"/>
+      <stop offset="1" stop-color="#f0d899"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#0c5dce"/>
+      <stop offset="0.5" stop-color="#0a4bb5"/>
+      <stop offset="1" stop-color="#0c2a72"/>
+    </linearGradient>
+    <linearGradient id="goldEarth" x1="0" x2="1">
+      <stop offset="0" stop-color="#f4d681"/>
+      <stop offset="0.35" stop-color="#d0a24d"/>
+      <stop offset="0.7" stop-color="#b57f2d"/>
+      <stop offset="1" stop-color="#efca75"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#1a0d2b" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <circle cx="700" cy="550" r="420" fill="url(#purpleGrad)" stroke="url(#goldGrad)" stroke-width="22"/>
+    <circle cx="700" cy="550" r="374" fill="#f0ece6" stroke="url(#goldGrad)" stroke-width="10"/>
+    <circle cx="700" cy="550" r="338" fill="url(#purpleGrad)" stroke="url(#goldGrad)" stroke-width="9"/>
+
+    <g fill="none" stroke="#e8d39a" stroke-width="4" opacity="0.95">
+      <path d="M700 210 v680"/>
+      <path d="M360 550 h680"/>
+      <path d="M470 290 C 575 410, 620 475, 700 550 S 825 690, 930 810"/>
+      <path d="M930 290 C 825 410, 780 475, 700 550 S 575 690, 470 810"/>
+      <path d="M520 260 C 620 360, 660 440, 700 550 S 780 740, 880 940"/>
+      <path d="M880 260 C 780 360, 740 440, 700 550 S 620 740, 520 940"/>
+    </g>
+
+    <g font-family="Georgia, serif" font-weight="700" text-anchor="middle">
+      <path id="topArc" d="M 250 545 A 450 450 0 0 1 1150 545" fill="none"/>
+      <text>
+        <textPath href="#topArc" startOffset="50%" font-size="118" fill="#f6f0e4" letter-spacing="4">BETHEL OUTREACH AND</textPath>
+      </text>
+      <path id="bottomArc" d="M 1350 555 A 450 450 0 0 1 50 555" fill="none"/>
+    </g>
+
+    <g>
+      <circle cx="700" cy="550" r="216" fill="url(#blueGrad)" stroke="#d7c180" stroke-width="8"/>
+      <path d="M510 560 C 550 430, 620 350, 700 345 C 770 350, 845 425, 890 560 C 855 690, 790 760, 700 770 C 610 760, 548 688, 510 560Z" fill="url(#goldEarth)" opacity="0.95"/>
+      <path d="M470 590 C 565 470, 650 430, 700 430 C 751 430, 830 470, 924 590 C 876 708, 794 770, 700 772 C 606 770, 525 708, 470 590Z" fill="rgba(255,255,255,0.10)"/>
+
+      <g fill="rgba(33, 65, 146, 0.58)">
+        <path d="M560 520 C 585 490, 610 495, 625 510 C 640 525, 622 560, 600 580 C 576 600, 550 588, 560 520Z"/>
+        <path d="M748 500 C 782 490, 814 515, 822 545 C 832 590, 792 620, 762 612 C 734 606, 720 550, 748 500Z"/>
+        <path d="M835 643 C 867 630, 900 655, 903 690 C 906 725, 876 756, 845 754 C 812 752, 794 708, 835 643Z"/>
+        <path d="M615 646 C 590 672, 586 718, 610 745 C 635 770, 672 761, 679 728 C 688 688, 642 626, 615 646Z"/>
+      </g>
+
+      <g>
+        <path d="M700 350 L740 450 L700 545 L660 450 Z" fill="#f8f1df" stroke="#d7b15f" stroke-width="10"/>
+        <path d="M700 315 L820 535 L700 868 L580 535 Z" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="10" opacity="0.9"/>
+        <path d="M700 370 L760 470 L700 760 L640 470 Z" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="6"/>
+      </g>
+
+      <g transform="translate(700,470)">
+        <path d="M0 -120 L38 0 L0 120 L-38 0 Z" fill="#fefefe" stroke="#e1c06f" stroke-width="3"/>
+        <path d="M0 -150 L25 0 L0 150 L-25 0 Z" fill="#fefefe" opacity="0.85"/>
+        <path d="M-12 0 L12 0 L12 180 L-12 180 Z" fill="#fefefe"/>
+        <path d="M-120 0 L120 0 L120 12 L-120 12 Z" fill="#fefefe"/>
+      </g>
+
+      <g transform="translate(700,510) rotate(-7)">
+        <path d="M-150 180 C -150 110, -70 80, 0 65 C 90 48, 180 40, 245 0 C 180 10, 120 18, 60 34 C 20 46, 0 60, 0 99 L0 180 Z" fill="#f6f4f8" stroke="#d3c1a4" stroke-width="3"/>
+        <path d="M-160 188 C -110 150, -70 140, -42 156 C 18 188, 70 195, 112 188 C 162 180, 204 154, 254 120 C 220 166, 180 180, 132 194 C 90 208, 34 215, -24 214 C -84 213, -120 206, -160 188 Z" fill="#f0ecf3" stroke="#d3c1a4" stroke-width="2"/>
+        <path d="M-155 180 L185 180" stroke="#d9b772" stroke-width="6" opacity="0.9"/>
+        <path d="M-138 140 L150 140" stroke="#d9b772" stroke-width="3" opacity="0.7"/>
+        <path d="M-110 100 L120 100" stroke="#d9b772" stroke-width="3" opacity="0.6"/>
+      </g>
+
+      <g transform="translate(700 240)">
+        <path d="M 0 -35 C 22 -20, 30 -8, 30 0 C 30 18, 0 35, -28 20 C -44 10, -40 -20, 0 -35Z" fill="#f9f6f1"/>
+        <path d="M-120 30 C -55 -17, 55 -18, 120 30 C 75 80, 36 90, 0 94 C -37 90, -75 78, -120 30Z" fill="#f8f7f2"/>
+        <path d="M-90 28 C -50 -5, 55 -5, 88 30 C 56 62, 35 74, 0 78 C -36 74, -60 62, -90 28Z" fill="#f5f4ef"/>
+        <path d="M0 0 L58 40 C 32 58, 20 68, 0 70 C -20 68, -32 58, -58 40 Z" fill="#fefefe"/>
+        <path d="M-90 28 C -78 52, -70 72, -54 92 C -24 84, -8 78, 0 72 C -18 52, -42 40, -90 28Z" fill="#f2f0ed"/>
+        <path d="M88 30 C 74 55, 58 74, 45 90 C 20 82, 8 78, 0 72 C 18 52, 38 40, 88 30Z" fill="#ece8e4"/>
+        <path d="M0 70 C 0 140, 0 180, 0 230" stroke="#f4f1eb" stroke-width="6" fill="none"/>
+        <path d="M-70 84 C -25 130, -7 165, 0 212" stroke="#f3efea" stroke-width="5" fill="none"/>
+        <path d="M70 84 C 28 130, 8 165, 0 212" stroke="#f1ede7" stroke-width="5" fill="none"/>
+      </g>
+
+      <g fill="#f3dbf5" opacity="0.9">
+        <path d="M410 260 l12 0 l-4 18 l12 0 l-20 14 l8 18 l-18 -12 l-18 12 l8 -18 l-20 -14 l12 0 l-4 -18 l12 0 Z"/>
+        <path d="M990 260 l12 0 l-4 18 l12 0 l-20 14 l8 18 l-18 -12 l-18 12 l8 -18 l-20 -14 l12 0 l-4 -18 l12 0 Z"/>
+        <path d="M416 865 l12 0 l-4 18 l12 0 l-20 14 l8 18 l-18 -12 l-18 12 l8 -18 l-20 -14 l12 0 l-4 -18 l12 0 Z"/>
+        <path d="M984 865 l12 0 l-4 18 l12 0 l-20 14 l8 18 l-18 -12 l-18 12 l8 -18 l-20 -14 l12 0 l-4 -18 l12 0 Z"/>
+      </g>
+    </g>
+
+    <g transform="translate(700 920)">
+      <path d="M-485 15 C-395 -70, -240 -100, 0 -100 C 250 -100, 396 -60, 485 15 L 420 110 C 310 30, 225 12, 0 12 C -215 12, -290 30, -420 110 Z" fill="url(#purpleGrad)" stroke="url(#goldGrad)" stroke-width="16"/>
+      <path d="M-315 12 C-245 -44, -125 -68, 0 -68 C 120 -68, 255 -40, 318 12 L 270 84 C 205 56, 140 42, 0 42 C -138 42, -204 58, -270 84 Z" fill="rgba(255,255,255,0.08)"/>
+      <text x="0" y="50" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="118" fill="#f6f0e4" letter-spacing="2">PRAYER CENTER</text>
+      <circle cx="-205" cy="20" r="5" fill="#f0d899"/>
+      <circle cx="205" cy="20" r="5" fill="#f0d899"/>
+    </g>
+  </g>
+</svg>
